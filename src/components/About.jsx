@@ -37,7 +37,12 @@ export default function About() {
             transition={{ duration: 0.7 }}
           >
             <div className="about__avatar">
-              👩‍💻
+              <img
+                src="/profile.jpg"
+                alt="Profile"
+                className="about__avatar-img"
+                loading="lazy"
+              />
             </div>
             <div className="about__badges">
               <div className="about__badge">🧠 AI / ML</div>
