@@ -505,13 +505,16 @@ body {
   margin: 0 auto;
   padding: 6rem 1.5rem 4rem;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   align-items: center;
   gap: 4rem;
   width: 100%;
 }
 
-.hero__text { max-width: 600px; }
+.hero__text {
+  max-width: 720px;
+  margin: 0 auto;
+}
 
 .hero__greeting {
   font-family: var(--font-mono);

@@ -130,24 +130,6 @@ export default function Hero() {
             ))}
           </motion.div>
         </motion.div>
-
-        {/* Profile image (right on desktop, centered on mobile) */}
-        <motion.div
-          className="hero__profile-wrap"
-          initial={{ opacity: 0, scale: 0.92 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.7, delay: 0.25, ease: [0.4, 0, 0.2, 1] }}
-        >
-          <img
-            src="/profile.png"
-            alt="Aparajita K Singh profile photo"
-            className="hero__profile-img"
-            loading="lazy"
-            decoding="async"
-            fetchPriority="high"
-            draggable={false}
-          />
-        </motion.div>
       </div>
 
       {/* Scroll indicator */}
